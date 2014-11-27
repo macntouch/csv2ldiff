@@ -1,0 +1,19 @@
+{
+  "name": "csv2ldiff",
+  "version": "1.0.0",
+  "description": "Module to create scripts that transform csv to ldifs",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^0.0.6",
+    "csv": "^0.4.1",
+    "node-uuid": "^1.4.1",
+    "stream-transform": "^0.0.6",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
