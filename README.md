@@ -19,7 +19,7 @@ config =
 		"cn=#{username},ou=People,dc=my-dc,dc=com"
 	"changetype": -> "add"
 	"cn": "username"
-  "userPassword": "password"
+	"userPassword": "password"
 	"objectClass": ->
 			"myObjectClass"
 	"uid": -> uuid.v4()
